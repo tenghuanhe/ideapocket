@@ -1,9 +1,6 @@
 package thinkingjava;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by Administrator on 2015/11/5.
@@ -37,6 +34,8 @@ public class AsListInference {
         Collections.addAll(snow4, new Light(), new Heavy());
 
         List<Snow> snow5 = Arrays.<Snow>asList(new Light(), new Heavy());
+
+        Vector<Integer> vint = new Vector<Integer>(1);
     }
 
 }
